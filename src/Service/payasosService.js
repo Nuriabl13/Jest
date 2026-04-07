@@ -1,5 +1,5 @@
 // src/payasosService.js
-const db = require("../db");
+const db = require("../repository/payasosRepository");
 
 async function registerPayaso(name, email) {
   if (!name || !email) {
